@@ -19,8 +19,10 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 </p>
 
 ## Network Architecture
-<div style="text-align: center;">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/SDFM.jpg" alt="SDFM" width="800" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+<div>
+    <center>
+        <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/SDFM.jpg" alt="SDFM" width="800" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+    </center>
 </div>
 <p align="center">
     <em>The architecture of the superficial detail fusion module (SDFM) based on the channel-spatial attention mechanism.</em>
