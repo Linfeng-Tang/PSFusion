@@ -1,6 +1,7 @@
 # PSFusion
 This is official Pytorch implementation of "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity"
-## Comparsion
+
+## Motivation
 <div>
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Demo.jpg" alt="Demo" height="300" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/parm.jpg" alt="Parm" height="300" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
@@ -39,3 +40,8 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
  - [ ] torchvision 0.11.0
  - [ ] kornia 0.6.5
  - [ ] pillow  8.3.2
+    
+## To Test
+1. Downloading the pre-trained checkpoint from [best_model.pth](https://pan.baidu.com/s/1N_dZvfiKwuwQf2DZPstJ0A?pwd=PSFu) and putting it in **./results/PSFusion/checkpoints**.
+2. Downloading the MSRS dataset from [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
+3. python test.py --dataroot=./datasets/MSRS --dataset_name=MSRS --resume=./results/PSFusion/checkpoints/best_model.pth 
