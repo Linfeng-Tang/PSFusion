@@ -44,12 +44,12 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 ## To Test
 1. Downloading the pre-trained checkpoint from [best_model.pth](https://pan.baidu.com/s/1N_dZvfiKwuwQf2DZPstJ0A?pwd=PSFu) and putting it in **./results/PSFusion/checkpoints**.
 2. Downloading the MSRS dataset from [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
-3. python test.py --dataroot=./datasets/MSRS --dataset_name=MSRS --resume=./results/PSFusion/checkpoints/best_model.pth
+3. `python test.py --dataroot=./datasets/MSRS --dataset_name=MSRS --resume=./results/PSFusion/checkpoints/best_model.pth`
 
 If you need to test other datasets, please put the dataset according to the dataloader and specify **--dataroot** and **--dataset-name**
 
 ## To Train 
 Before training PSFusion, you need to download the pre-processed **MSRS** dataset [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
 
-Then run `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
+Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 
