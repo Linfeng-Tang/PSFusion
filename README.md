@@ -109,4 +109,18 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 <p align="center">
     <em><span style="font-size: 50px;">Per-class segmentation results on the MSRS dataset. </em>
 </p>
-    
+
+### Potential of image-level fusion for high-level vision tasks
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Seg_MFNet.jpg" alt="MFNet" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Segmentation results of feature-level fusion-based multi-modal segmentation algorithms and our image-level fusion-based solution on the MFNet dataset.</em>
+</p>
+
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Tabel_MSRS.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Per-class segmentation results of image-level fusion and feature-level fusion on the MFNet dataset.</em>
+</p>
