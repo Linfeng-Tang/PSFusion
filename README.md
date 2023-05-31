@@ -7,5 +7,14 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 </div>
 
 <p align="center">
-    <em>(a) Comparison of fusion and segmentation results | (b) Comparison of the computational complexity for semantic segmentation.</em>
+    <em>(a) Comparison of fusion and segmentation results. | (b) Comparison of the computational complexity for semantic segmentation.</em>
 </p>
+
+## Framework
+<div>
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Framework.jpg" alt="Framework" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em>The overall framework of the proposed PSFusion.</em>
+</p>
+![The overall framework of the proposed PSFusion.](https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Framework.jpg)
