@@ -17,4 +17,18 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 <p align="center">
     <em>The overall framework of the proposed PSFusion.</em>
 </p>
-![The overall framework of the proposed PSFusion.](https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Framework.jpg)
+
+## Network Architecture
+<div>
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/SDFM.jpg" alt="SDFM" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em>The architecture of the superficial detail fusion module (SDFM) based on the channel-spatial attention mechanism.</em>
+</p>
+
+<div>
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/PSFM.jpg" alt="PSFM" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em>The architecture of the profound semantic fusion module (PSFM) based on the cross-attention mechanism.</em>
+</p>
