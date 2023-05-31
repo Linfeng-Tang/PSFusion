@@ -63,17 +63,38 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 ### SegNeXt
 
 ## Experiments
-### Fusion results on the MSRS dataset
+### Qualitative fusion results
 <div align="center">
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/MSRS_F.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
 </div>
 <p align="center">
-    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the MSRS dataset.</em>
+    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **MSRS** dataset.</em>
+</p>
+    
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/M3FD_F.jpg" alt="M3FD" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **M3FD** dataset.</em>
+</p>
+
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/TNO_F.jpg" alt="TNO" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **TNO** dataset.</em>
+</p>
+    
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/RoadScene_F.jpg" alt="RoadScene" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **RoadScene** dataset.</em>
 </p>
     
 <div align="center">
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/MSRS.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
 </div>
 <p align="center">
-    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on $361$ image pairs from the MSRS dataset. A point ($x$, $y$) on the curve denotes that there are ($100*x$)\% percent of image pairs which have metric values no more than $y$.</em>
+    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 361 image pairs from the MSRS dataset. A point (x, y) on the curve denotes that there are (100*x)% percent of image pairs which have metric values no more than y.</em>
 </p>
