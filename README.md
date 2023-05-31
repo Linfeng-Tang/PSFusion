@@ -93,5 +93,18 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
     <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 300 image pairs from the M3FD dataset.</em>
 </p>
    
+### Segmentation comparison
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Seg_MSRS.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Segmentation results of various fusion algorithms on the MSRS dataset.</em>
+</p>
 
-
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Tabel_MSRS.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Per-class segmentation results on the MSRS dataset. </em>
+</p>
+    
