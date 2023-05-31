@@ -32,3 +32,10 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 <p align="center">
     <em><span style="font-size: 50px;">The architecture of the profound semantic fusion module (PSFM) based on the cross-attention mechanism.</em>
 </p>
+
+## Recommended Environment
+ - [ ] torch  1.10.0
+ - [ ] cudatoolkit 11.3.1
+ - [ ] torchvision 0.11.0
+ - [ ] kornia 0.6.5
+ - [ ] pillow  8.3.2
