@@ -115,10 +115,10 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 </p>
    
 <div align="center">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/RoadScne.jpg" alt="RoadScne" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/RoadScene.jpg" alt="RoadScene" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
 </div>
 <p align="center">
-    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 25 image pairs from the RoadScne dataset. </em>
+    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 25 image pairs from the RoadScene dataset. </em>
 </p>
     
 
