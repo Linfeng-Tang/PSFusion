@@ -57,3 +57,23 @@ Before training PSFusion, you need to download the pre-processed **MSRS** datase
 
 Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 
+## To Segmentation
+### BANet
+### Segmentation
+### SegNeXt
+
+## Experiments
+### Fusion results on the MSRS dataset
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/MSRS_F.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the MSRS dataset.</em>
+</p>
+    
+<div align="center">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/MSRS.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+</div>
+<p align="center">
+    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on $361$ image pairs from the MSRS dataset. A point ($x$, $y$) on the curve denotes that there are ($100*x$)\% percent of image pairs which have metric values no more than $y$.</em>
+</p>
