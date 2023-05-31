@@ -1,6 +1,3 @@
-# PSFusion
-This is official Pytorch implementation of "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity"
-## Comparsion
 <style>
 .image-container {
     display: inline-block;
@@ -9,6 +6,11 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
     margin-bottom: 20px;
 }
 </style>
+
+# PSFusion
+This is official Pytorch implementation of "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity"
+## Comparsion
+
 ![Demo]([https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Demo.jpg)){: .image-container}
 ![图片2](https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/parm.jpg){: .image-container}
 
