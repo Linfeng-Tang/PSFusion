@@ -13,9 +13,6 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
   publisher={IEEE}
 }
 ```
-
-
-
 ## Framework
 <div>
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Framework.jpg" alt="Framework" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
@@ -23,6 +20,25 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 <p align="center">
     <em>The overall framework of the proposed PSFusion.</em>
 </p>
+
+## Recommended Environment
+ - [ ] torch  1.10.0
+ - [ ] cudatoolkit 11.3.1
+ - [ ] torchvision 0.11.0
+ - [ ] kornia 0.6.5
+ - [ ] pillow  8.3.2
+    
+## To Test
+1. Downloading the pre-trained checkpoint from [best_model.pth](https://pan.baidu.com/s/1N_dZvfiKwuwQf2DZPstJ0A?pwd=PSFu) and putting it in **./results/PSFusion/checkpoints**.
+2. Downloading the MSRS dataset from [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
+3. `python test.py --dataroot=./datasets/MSRS --dataset_name=MSRS --resume=./results/PSFusion/checkpoints/best_model.pth`
+
+If you need to test other datasets, please put the dataset according to the dataloader and specify **--dataroot** and **--dataset-name**
+
+## To Train 
+Before training PSFusion, you need to download the pre-processed **MSRS** dataset [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
+
+Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 
 ## Motivation
 <div align="center">
@@ -53,25 +69,6 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 <p align="center">
     <em><span style="font-size: 50px;">The architecture of the profound semantic fusion module (PSFM) based on the cross-attention mechanism.</em>
 </p>
-
-## Recommended Environment
- - [ ] torch  1.10.0
- - [ ] cudatoolkit 11.3.1
- - [ ] torchvision 0.11.0
- - [ ] kornia 0.6.5
- - [ ] pillow  8.3.2
-    
-## To Test
-1. Downloading the pre-trained checkpoint from [best_model.pth](https://pan.baidu.com/s/1N_dZvfiKwuwQf2DZPstJ0A?pwd=PSFu) and putting it in **./results/PSFusion/checkpoints**.
-2. Downloading the MSRS dataset from [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
-3. `python test.py --dataroot=./datasets/MSRS --dataset_name=MSRS --resume=./results/PSFusion/checkpoints/best_model.pth`
-
-If you need to test other datasets, please put the dataset according to the dataloader and specify **--dataroot** and **--dataset-name**
-
-## To Train 
-Before training PSFusion, you need to download the pre-processed **MSRS** dataset [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
-
-Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 
 ## To Segmentation
 ### BANet
