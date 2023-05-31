@@ -46,7 +46,7 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 </div>
 
 <p align="center">
-    <em>Comparison of fusion and segmentation results between [SeAFusion](https://github.com/Linfeng-Tang/SeAFusion) and our method under harsh conditions.</em>
+    <em>Comparison of fusion and segmentation results between <a href="https://github.com/Linfeng-Tang/SeAFusion">SeAFusion</a> and our method under harsh conditions.</em>
 </p>
 <div align="center">
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/parm.jpg" alt="Parm" width="800"  style="display:inline-block;margin-right:20px;margin-bottom:20px;">
