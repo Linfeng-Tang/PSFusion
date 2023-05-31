@@ -7,5 +7,5 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
 </div>
 
 <p align="center">
-    <em>(a) Comparison of fusion and segmentation results between SeAFusion and our method | (b) Comparison of the computational complexity between feature-level fusion and image-level fusion for semantic segmentation.</em>
+    <em>(a) Comparison of fusion and segmentation results | (b) Comparison of the computational complexity for semantic segmentation.</em>
 </p>
