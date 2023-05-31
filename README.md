@@ -30,5 +30,5 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
     <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/PSFM.jpg" alt="PSFM" width="800" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
 </div>
 <p align="center">
-    <em><span style="font-size: 20px;">The architecture of the profound semantic fusion module (PSFM) based on the cross-attention mechanism.</em>
+    <em><span style="font-size: 50px;">The architecture of the profound semantic fusion module (PSFM) based on the cross-attention mechanism.</em>
 </p>
