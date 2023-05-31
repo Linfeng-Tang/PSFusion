@@ -77,20 +77,6 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 <p align="center">
     <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **M3FD** dataset.</em>
 </p>
-
-<div align="center">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/TNO_F.jpg" alt="TNO" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
-</div>
-<p align="center">
-    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **TNO** dataset.</em>
-</p>
-
-<div align="center">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/RoadScene_F.jpg" alt="RoadScene" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
-</div>
-<p align="center">
-    <em><span style="font-size: 50px;">Qualitative comparison of PSFusion with 9 state-of-the-art methods on the **RoadScene** dataset.</em>
-</p>
     
 ### Quantitative fusion results    
 <div align="center">
@@ -107,19 +93,5 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
     <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 300 image pairs from the M3FD dataset.</em>
 </p>
    
-<div align="center">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/TNO.jpg" alt="TNO" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
-</div>
-<p align="center">
-    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 25 image pairs from the TNO dataset.</em>
-</p>
-   
-<div align="center">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/RoadScene.jpg" alt="RoadScene" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
-</div>
-<p align="center">
-    <em><span style="font-size: 50px;">Quantitative comparisons of the six metrics on 25 image pairs from the RoadScene dataset. </em>
-</p>
-    
 
 
