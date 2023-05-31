@@ -50,8 +50,6 @@ If you need to test other datasets, please put the dataset according to the data
 
 ## To Train 
 Before training PSFusion, you need to download the pre-processed **MSRS** dataset [MSRS](https://pan.baidu.com/s/18q_3IEHKZ48YBy2PzsOtRQ?pwd=MSRS) and putting it in **./datasets**.
-Then run 
-    '''python
-    python train.py --dataroot=./datasets/MSRS --name=PSFusion
-    '''
+
+Then run `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 
