@@ -1,5 +1,18 @@
 # PSFusion
 This is official Pytorch implementation of "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity"
+ - ```
+@article{TANG2022SuperFusion,
+  title={SuperFusion: A versatile image registration and fusion network with semantic awareness},
+  author={Tang, Linfeng and Deng, Yuxin and Ma, Yong and Huang, Jun and Ma, Jiayi},
+  journal={IEEE/CAA Journal of Automatica Sinica},
+  volume={9},
+  number={12},
+  pages={2121--2137},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
 
 
 ## Framework
@@ -124,3 +137,17 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 <p align="center">
     <em><span style="font-size: 50px;">Per-class segmentation results of image-level fusion and feature-level fusion on the MFNet dataset.</em>
 </p>
+
+## If this work is helpful to you, please cite it as：
+```
+@article{TANG2022SuperFusion,
+  title={SuperFusion: A versatile image registration and fusion network with semantic awareness},
+  author={Tang, Linfeng and Deng, Yuxin and Ma, Yong and Huang, Jun and Ma, Jiayi},
+  journal={IEEE/CAA Journal of Automatica Sinica},
+  volume={9},
+  number={12},
+  pages={2121--2137},
+  year={2022},
+  publisher={IEEE}
+}
+```
