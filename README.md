@@ -1,6 +1,7 @@
 # PSFusion
 This is official Pytorch implementation of "Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity"
- - ```
+ - 
+```
 @article{TANG2022SuperFusion,
   title={SuperFusion: A versatile image registration and fusion network with semantic awareness},
   author={Tang, Linfeng and Deng, Yuxin and Ma, Yong and Huang, Jun and Ma, Jiayi},
