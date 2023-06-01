@@ -10,6 +10,18 @@ The paper is in [Here](https://arxiv.org/pdf/2209.08575.pdf).
 
 The code is based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1).
 
+This is Pytorch implementation of " SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation" in PSFusion.
+
+## Fast Test
+1) Download the pre-trained model from [SegNext](https://pan.baidu.com/s/1OUTj1uTEbd94bbMIDo7Ojw?pwd=SegN), unzip SegNext and put **res_MSRS** and **res_MFNet** in . /
+2) Download the pre-processed MSRS and MFNet dataset from [MSRS](https://pan.baidu.com/s/1Yv6QQ8IlobTHu288KTOCKg?pwd=MSRS) and [MFNet](https://pan.baidu.com/s/1P4ccNtUQcCR1Mr8YBKy0qQ?pwd=MFNe), respectively. Then, put them  in **./datasets**
+3) Refer to the original project configuration running environment [SegNext](https://github.com/NVlabs/SegFormer).
+4) Running `python tools/test.py`
+
+## To Train
+Please refer to the original [SegNext](https://github.com/NVlabs/SegFormer) to start your training.
+
+For a fast start tutorial, you can also refer to: [SegNext Guide](https://blog.csdn.net/fovever_/article/details/129121234?spm=1001.2014.3001.5502).
 
 ## Citation
 If you find our repo useful for your research, please consider citing our paper:
