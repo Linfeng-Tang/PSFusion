@@ -3,7 +3,6 @@
 
 from logger import setup_logger
 from model_TII import BiSeNet
-from cityscapes import CityScapes
 from MSRS import MSRS
 # import cv2
 import torch
@@ -47,7 +46,7 @@ class MscEval(object):
         ## dataloader
         self.dl = dataloader
         self.net = model
-        print(self.scales)
+        
 
     def pad_tensor(self, inten, size):
         N, C, H, W = inten.size()
@@ -86,9 +85,6 @@ class MscEval(object):
 
     def visualize(self, save_name, predictions):
         palette = self.get_palette()
-        # print(predictions.shape)
-        # 遍历predictions
-        # for (i, pred) in enumerate(predictions):
         pred = predictions
         img = np.zeros((pred.shape[0], pred.shape[1], 3), dtype=np.uint8)
         for cid in range(1, int(predictions.max())):
