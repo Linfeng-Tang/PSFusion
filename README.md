@@ -67,12 +67,12 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 </p>
 
 ## To Segmentation
-### BANet
- [BANet](https://github.com/Linfeng-Tang/PSFusion/tree/BANet)
-### SegFormer
- [SegFormer](https://github.com/Linfeng-Tang/PSFusion/tree/SegFormer)
-### SegNeXt
- [SegNeXt](https://github.com/Linfeng-Tang/PSFusion/tree/SegNeXt)
+### [BANet](https://github.com/Linfeng-Tang/PSFusion/tree/BANet)
+ 
+### [SegFormer](https://github.com/Linfeng-Tang/PSFusion/tree/SegFormer)
+ 
+### [SegNeXt](https://github.com/Linfeng-Tang/PSFusion/tree/SegNeXt)
+ 
 
 ## Experiments
 ### Qualitative fusion results
