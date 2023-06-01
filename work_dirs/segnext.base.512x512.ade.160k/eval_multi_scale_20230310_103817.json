@@ -1,0 +1,26 @@
+{
+    "config": "/data/timer/Segmentation/SegNeXt/local_configs/segnext/base/segnext.base.512x512.ade.160k.py",
+    "metric": {
+        "aAcc": 0.9873999999999999,
+        "mIoU": 0.7975,
+        "mAcc": 0.8693000000000001,
+        "IoU.unlabelled": 0.9876000213623047,
+        "IoU.car": 0.925,
+        "IoU.person": 0.7659999847412109,
+        "IoU.bike": 0.7397000122070313,
+        "IoU.curve": 0.6468000030517578,
+        "IoU.car_stop": 0.7977999877929688,
+        "IoU.guardrail": 0.8133999633789063,
+        "IoU.color_cone": 0.6894000244140625,
+        "IoU.bump": 0.8118000030517578,
+        "Acc.unlabelled": 0.9943000030517578,
+        "Acc.car": 0.9622000122070312,
+        "Acc.person": 0.8680000305175781,
+        "Acc.bike": 0.8380000305175781,
+        "Acc.curve": 0.7580000305175781,
+        "Acc.car_stop": 0.8906999969482422,
+        "Acc.guardrail": 0.8494999694824219,
+        "Acc.color_cone": 0.7854000091552734,
+        "Acc.bump": 0.8777999877929688
+    }
+}

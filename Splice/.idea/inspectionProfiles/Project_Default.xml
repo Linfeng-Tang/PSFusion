@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="18">
+            <item index="0" class="java.lang.String" itemvalue="tqdm" />
+            <item index="1" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="2" class="java.lang.String" itemvalue="tensorboardX" />
+            <item index="3" class="java.lang.String" itemvalue="torch" />
+            <item index="4" class="java.lang.String" itemvalue="numpy" />
+            <item index="5" class="java.lang.String" itemvalue="einops" />
+            <item index="6" class="java.lang.String" itemvalue="torchvision" />
+            <item index="7" class="java.lang.String" itemvalue="imgaug" />
+            <item index="8" class="java.lang.String" itemvalue="Pillow" />
+            <item index="9" class="java.lang.String" itemvalue="pdfminer3" />
+            <item index="10" class="java.lang.String" itemvalue="timm" />
+            <item index="11" class="java.lang.String" itemvalue="pretrainedmodels" />
+            <item index="12" class="java.lang.String" itemvalue="efficientnet-pytorch" />
+            <item index="13" class="java.lang.String" itemvalue="pandas" />
+            <item index="14" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="15" class="java.lang.String" itemvalue="tabulate" />
+            <item index="16" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="17" class="java.lang.String" itemvalue="wandb" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
