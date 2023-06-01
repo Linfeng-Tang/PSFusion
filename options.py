@@ -19,10 +19,10 @@ class TrainOptions():
     self.parser.add_argument('--temp', default=2.0, type=float, help='temperature for DWA (must be positive)')    
     
     # ouptput related
-    self.parser.add_argument('--name', type=str, default='PSF', help='folder name to save outputs')
+    self.parser.add_argument('--name', type=str, default='PSFusion', help='folder name to save outputs')
     self.parser.add_argument('--class_nb', type=int, default=9, help='class number for segmentation model')
-    self.parser.add_argument('--display_dir', type=str, default='/data/timer/PSF/logs', help='path for saving display results')
-    self.parser.add_argument('--result_dir', type=str, default='/data/timer/PSF/results', help='path for saving result images and models')
+    self.parser.add_argument('--display_dir', type=str, default='./logs', help='path for saving display results')
+    self.parser.add_argument('--result_dir', type=str, default='./results', help='path for saving result images and models')
     self.parser.add_argument('--display_freq', type=int, default=10, help='freq (iteration) of display')
     self.parser.add_argument('--img_save_freq', type=int, default=10, help='freq (epoch) of saving images')
     self.parser.add_argument('--model_save_freq', type=int, default=10, help='freq (epoch) of saving models')
@@ -48,7 +48,7 @@ class TestOptions():
     
     ## mode related
     self.parser.add_argument('--class_nb', type=int, default=9, help='class number for segmentation model')
-    self.parser.add_argument('--resume', type=str, default='./results/PSF/checkpoints/best_model.pth', help='specified the dir of saved models for resume the training')
+    self.parser.add_argument('--resume', type=str, default='./results/PSFusion/checkpoints/best_model.pth', help='specified the dir of saved models for resume the training')
     self.parser.add_argument('--gpu', type=int, default=0, help='GPU id')
     
     # results related
