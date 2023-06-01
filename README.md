@@ -11,6 +11,19 @@
   Figure 1: Performance of SegFormer-B0 to SegFormer-B5.
 </p>
 
+This is Pytorch implementation of "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers" in PSFusion.
+
+## Fast Test
+1) Downloading the pre-trained model from [res_MSRS](https://pan.baidu.com/s/1ST-n7jTfa72nmr8JjF3MhA?pwd=SegF) and putting it in ./ .
+2) Downloading the pre-processed MSRS dataset from [MSRS](https://pan.baidu.com/s/1Yv6QQ8IlobTHu288KTOCKg?pwd=MSRS) and putting it in **./datasets**
+3) Refer to the original project configuration running environment [SegFormer](https://github.com/NVlabs/SegFormer).
+4) Running `python tools/test.py`
+
+## To Train
+Please refer to the original [SegFormer](https://github.com/NVlabs/SegFormer) to start your training.
+
+For a fast start tutorial, you can also refer to: [Segformer Guide](https://blog.csdn.net/fovever_/article/details/129121234?spm=1001.2014.3001.5502).
+
 ### [Project page](https://github.com/NVlabs/SegFormer) | [Paper](https://arxiv.org/abs/2105.15203) | [Demo (Youtube)](https://www.youtube.com/watch?v=J0MoRQzZe8U) | [Demo (Bilibili)](https://www.bilibili.com/video/BV1MV41147Ko/)
 
 SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers.<br>
