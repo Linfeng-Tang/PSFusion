@@ -6,10 +6,6 @@ from saver import resume, save_img_single
 from tqdm import tqdm
 from thop import profile
 
-def count_parameters(model):
-    return sum(p.numel() for p in model.parameters() if p.requires_grad)
-
-
 def main():
     # parse options    
     parser = TestOptions()
