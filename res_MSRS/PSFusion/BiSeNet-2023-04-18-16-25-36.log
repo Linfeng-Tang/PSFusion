@@ -1,0 +1,7 @@
+INFO evaluate.py(225): 
+
+INFO evaluate.py(226): ================
+INFO evaluate.py(227): evaluating the model ...
+
+INFO evaluate.py(251): compute the mIOU
+INFO evaluate.py(256): PSFusion | IoU:[98.67, 91.4, 75.61, 72.5, 64.74, 75.63, 82.08, 67.63, 80.76, 78.78], mIoU:0.7878
