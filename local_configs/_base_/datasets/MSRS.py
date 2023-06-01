@@ -1,7 +1,7 @@
 # dataset settings
 
 dataset_type = 'PascalVOCDataset'
-data_root = '/data/timer/Segmentation/SegNext/datasets/MSRS'  ## Here you need to modify according to the actual path
+data_root = './datasets/MSRS'  ## Here you need to modify according to the actual path
 input_type = 'PSFusion'
 if input_type == 'SeAFusion':
     img_norm_cfg = dict(
