@@ -6,6 +6,8 @@ This is official Pytorch implementation of "Rethinking the necessity of image fu
   title={Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity},
   author={Tang, Linfeng and Zhang, Hao and Xu, Han and Ma, Jiayi},
   journal={Information Fusion},
+  volume = {99},
+  pages = {101870},
   year={2023},
 }
 ```
