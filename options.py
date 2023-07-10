@@ -11,12 +11,10 @@ class TrainOptions():
 
     # training related
     self.parser.add_argument('--lr', default=1e-3, type=int, help='Initial learning rate for training model')
-    self.parser.add_argument('--weight', default='dwa', type=str, help='multi-task weighting: equal, uncert, dwa')
     self.parser.add_argument('--n_ep', type=int, default=2500, help='number of epochs') # 400 * d_iter
     self.parser.add_argument('--n_ep_decay', type=int, default=1000, help='epoch start decay learning rate, set -1 if no decay') # 200 * d_iter
     self.parser.add_argument('--resume', type=str, default=None, help='specified the dir of saved models for resume the training')
-    self.parser.add_argument('--gpu', type=int, default=0, help='GPU id')
-    self.parser.add_argument('--temp', default=2.0, type=float, help='temperature for DWA (must be positive)')    
+    self.parser.add_argument('--gpu', type=int, default=0, help='GPU id')  
     
     # ouptput related
     self.parser.add_argument('--name', type=str, default='PSFusion', help='folder name to save outputs')
