@@ -15,7 +15,7 @@ This is Pytorch implementation of "SegFormer: Simple and Efficient Design for Se
 
 ## Fast Test
 1) Downloading the pre-trained model from [res_MSRS](https://pan.baidu.com/s/1ST-n7jTfa72nmr8JjF3MhA?pwd=SegF) and putting it in ./ .
-2) Downloading the pre-processed MSRS dataset from [MSRS](https://pan.baidu.com/s/1Yv6QQ8IlobTHu288KTOCKg?pwd=MSRS) and putting it in **./datasets**
+2) Downloading the pre-processed MSRS dataset from [MSRS]([https://pan.baidu.com/s/1Yv6QQ8IlobTHu288KTOCKg?pwd=MSRS](https://pan.baidu.com/s/1AjQSkRWYYMeBgT6IT9fOUw?pwd=MSRS )) and putting it in **./datasets**
 3) Refer to the original project configuration running environment [SegFormer](https://github.com/NVlabs/SegFormer).
 4) Running `python tools/test.py --aug-test`
 
