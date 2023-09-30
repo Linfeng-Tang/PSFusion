@@ -131,7 +131,7 @@ Then running `python train.py --dataroot=./datasets/MSRS --name=PSFusion`
 </p>
 
 <div align="center">
-    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Tabel_MSRS.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
+    <img src="https://github.com/Linfeng-Tang/PSFusion/blob/main/Figure/Tabel_MFNet.jpg" alt="MSRS" style="display:inline-block;margin-right:20px;margin-bottom:20px;">
 </div>
 <p align="center">
     <em><span style="font-size: 50px;">Per-class segmentation results of image-level fusion and feature-level fusion on the MFNet dataset.</em>
