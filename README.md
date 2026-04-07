@@ -19,10 +19,6 @@ This is official Pytorch implementation of "[Rethinking the necessity of image f
 }
 ```
 
-## Image Fusion Example
-![Schematic illustration of multi-modal image fusion and digital photography image fusion. ](https://github.com/Linfeng-Tang/SwinFusion/blob/master/SwinFusion/Schematic_illustration.jpg)
-Schematic illustration of multi-modal image fusion and digital photography image fusion. First row: source image pairs, second row: fused results of U2Fusion and our SwinFusion.
-
  
 ## Framework
 <div>
