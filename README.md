@@ -1,4 +1,11 @@
 # PSFusion
+
+<p align="center">
+  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Hot_Paper-Top_0.1%25-E85D3F?style=for-the-badge" alt="ESI Hot Paper (top 0.1%)"></a>
+  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Highly_Cited_Paper-Top_1%25-2F6FB0?style=for-the-badge" alt="ESI Highly Cited Paper (top 1%)"></a>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PyRqpAsAAAAJ&citation_for_view=PyRqpAsAAAAJ:Tyk-4Ss8FVUC"><img src="https://img.shields.io/badge/Google_Scholar_Citations-410-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar citations"></a>
+</p>
+<p align="center"><sub>Google Scholar citation count updated July 18, 2026.</sub></p>
 This is official Pytorch implementation of "[Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity](https://www.sciencedirect.com/science/article/pii/S1566253523001860)"
 
 ## ✨News:
