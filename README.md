@@ -1,13 +1,9 @@
-# PSFusion
+<h1 align="center"><a href="https://www.sciencedirect.com/science/article/pii/S1566253523001860">Rethinking the Necessity of Image Fusion in High-level Vision Tasks: A Practical Infrared and Visible Image Fusion Network Based on Progressive Semantic Injection and Scene Fidelity</a></h1>
 
-<p align="center">
-  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Hot_Paper-Top_0.1%25-E85D3F?style=for-the-badge" alt="ESI Hot Paper (top 0.1%)"></a>
-  <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/ESI_Highly_Cited_Paper-Top_1%25-2F6FB0?style=for-the-badge" alt="ESI Highly Cited Paper (top 1%)"></a>
-  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PyRqpAsAAAAJ&citation_for_view=PyRqpAsAAAAJ:Tyk-4Ss8FVUC"><img src="https://img.shields.io/badge/Google_Scholar_Citations-410-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar citations"></a>
-</p>
-<p align="center"><sub>Google Scholar citation count updated July 18, 2026.</sub></p>
-
-This is official Pytorch implementation of "[Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity](https://www.sciencedirect.com/science/article/pii/S1566253523001860)"
+<p align="center"><a href="https://github.com/Linfeng-Tang">Linfeng Tang</a>&emsp; Hao Zhang&emsp; Han Xu&emsp; <a href="https://sites.google.com/site/jiayima2013">Jiayi Ma</a></p>
+<p align="center"><strong>Wuhan University &middot; Southeast University</strong></p>
+<p align="center"><strong>Information Fusion</strong> &middot; 2023</p>
+<p align="center"><a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/%F0%9F%94%A5_ESI_Hot-Top_0.1%25-E85D3F?style=flat-square" alt="ESI Hot Paper (top 0.1%)"></a> <a href="https://esi.help.clarivate.com/Content/overview.htm"><img src="https://img.shields.io/badge/%F0%9F%8F%86_ESI_Highly_Cited-Top_1%25-D4A017?style=flat-square" alt="ESI Highly Cited Paper (top 1%)"></a><br><sub><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PyRqpAsAAAAJ&citation_for_view=PyRqpAsAAAAJ:Tyk-4Ss8FVUC">Google Scholar &middot; <strong>410 citations</strong></a> &middot; updated July 18, 2026</sub></p>
 
 ## ✨News:
 
